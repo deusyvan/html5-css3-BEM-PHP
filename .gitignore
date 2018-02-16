@@ -1,3 +1,6 @@
+.buildpath
+.project
+
 # CakePHP 3
 
 /vendor/*
