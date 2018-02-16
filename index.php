@@ -4,7 +4,7 @@
     $template = new XTemplate("template/index.html");
     
     $titulo = "DFS - Web";
-    $mensagem = "2.9. Elementos estruturais";
+    $mensagem = "Estudo PHP";
     
     $template->assign("titulo", $titulo);
     
