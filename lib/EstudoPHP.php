@@ -1,28 +1,25 @@
 <?php
 
-//Comparação de Tipo boleano
+//Tipo Numérico
+$decimal = 1234;
 
-$umidade = 91;
+$negativo = -123;
 
-$vaiChover = ($umidade > 90);
+$octal = 0123;
 
-if ($vaiChover){
-    echo 'Está chovendo';
-}
+$hexadecimal = 0x1A;
+
+$pontoFlutuante = 1.234;
+
+$notacao_cientifica = 4e23;
+
+
 
 echo "\n***************\n";
 //Resultado:
 /*
  
-  Está chovendo
+ 
   
  */
 
-/*
- * Valores falsos em boleano
- * Inteiro 0
- * ponto flutuante 0.0
- * string vazia "" ou "0"
- * array vazio
- * objeto sem elementos
- * tipo NULL
