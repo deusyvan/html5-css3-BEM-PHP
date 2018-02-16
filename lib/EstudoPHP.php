@@ -17,3 +17,12 @@ echo "\n***************\n";
   Está chovendo
   
  */
+
+/*
+ * Valores falsos em boleano
+ * Inteiro 0
+ * ponto flutuante 0.0
+ * string vazia "" ou "0"
+ * array vazio
+ * objeto sem elementos
+ * tipo NULL
