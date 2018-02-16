@@ -1,17 +1,19 @@
 <?php
 
-//Tipo boleano
+//Comparação de Tipo boleano
 
-$exibir_nome = TRUE;
+$umidade = 91;
 
-if ($exibir_nome){
-    echo 'José da Silva';
+$vaiChover = ($umidade > 90);
+
+if ($vaiChover){
+    echo 'Está chovendo';
 }
 
 echo "\n***************\n";
 //Resultado:
 /*
  
-  José da Silva
+  Está chovendo
   
  */
