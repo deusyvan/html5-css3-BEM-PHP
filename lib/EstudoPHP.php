@@ -1,34 +1,9 @@
 <?php
 
-/*     Comentários: 
-    echo 'a', 'b', 'c',"\n";
-    #echo "a";
-    echo "b"; 
-    
-    print ('abc');
-    
-    echo "**************************************\n";
-  
-    $vetor = array('Palio', 'Gol', 'Fiesta', 'Corsa');
-    
-    var_dump($vetor);
+$variavel = 'nome';
 
-    
-    echo "**************************************\n";
-    
-    print_r($vetor);
-    
-*/
+$$variavel = 'maria';
 
-echo "**************************************\n";
+echo $nome;
 
-/* $nome = "João";
-$sobrenome = "da Silva";
-
-echo "$sobrenome, $nome"; */
-
-
-
-
-    
-    
+//resultado = maria
