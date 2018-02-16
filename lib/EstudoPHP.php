@@ -1,12 +1,17 @@
 <?php
 
-//Referência de variável
+//Tipo boleano
 
-$a = 5;
-$b = &$a;
-$b = 10;
+$exibir_nome = TRUE;
 
-echo $a; //resultado = 10
+if ($exibir_nome){
+    echo 'José da Silva';
+}
+
 echo "\n***************\n";
-echo $b; //resultado = 10
-
+//Resultado:
+/*
+ 
+  José da Silva
+  
+ */
