@@ -1,9 +1,12 @@
 <?php
 
-$variavel = 'nome';
+//Atribuição de variável
 
-$$variavel = 'maria';
+$a = 5;
+$b = $a;
+$b = 10;
 
-echo $nome;
+echo $a; //resultado = 5
+echo "\n***************\n";
+echo $b; //resultado = 10
 
-//resultado = maria
