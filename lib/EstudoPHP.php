@@ -1,33 +1,16 @@
 <?php
 
-//Operadores Aritméticos : usado para realização de cálculos matemáticos
+//Conversão de tipos
 
-/* 
- 
- 
- +
- -
- *
- /
- % 
- 
-
- */
-
-
-$a = 2; 
-$b = 4; 
-echo $a+3*4+5*$b;
+$a = '10'; 
+echo $a + 5;
 
 echo "\n***************\n";
 
-echo ($a+3)*4+(5*$b);
-
 //Resultados:
 /*
- 34
  
- 40
- 
+ 15
+  
  */
 
