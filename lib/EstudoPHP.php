@@ -1,23 +1,18 @@
 <?php
 
-//Tipo misto
+//Tipo callback
 
-//string gettype(mixed var)
+//call_user_func($callback)
 
+//Tipo NULL
 
+//ÚNICO valor possível: NULL
 
 echo "\n***************\n";
-//Resultados possíveis:
+//Resultados:
 /*
  
-boolean
-integer
-double
-string
-array
-object
-resource
-NULL
+
   
  */
 
