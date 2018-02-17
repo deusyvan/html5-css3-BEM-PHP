@@ -1,14 +1,9 @@
-/*Agrupar seletores*/
+/*Compartilhando as propriedades */
 
-#titulo {
+#titulo, .missao {
 	font-family: Arial;
 }
 
-.introducao {
+.introducao, .missao{
 	color: red;
-}
-
-.missao {
-    color: red;
-	font-family: Arial;
 }
