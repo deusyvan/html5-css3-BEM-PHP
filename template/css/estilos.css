@@ -1,11 +1,7 @@
-/*Seletores de filhos direto */
+/*Cores */
 
 /*
-    Misturar tipos de seletores
-    Descendentes de article e filhos direto de importante
-    Deixando mais específico.
+   
  */
 
-article .importante > strong {
-    color: red;
-} 
+
