@@ -1,18 +1,6 @@
-/*Seletores descendentes */
-/* .missao strong {
-	color: red;
-}
-*/
+/*Seletores de filhos direto */
 
-/* 
-article strong {
-	color: blue;
-} 
-*/
-
-/* aticle tem um descendente missao que por sua vez um descendente strong
-   tem que estar na mesma hierarquia 
-*/
-article .missao strong {
-    color: green;
+/*É descendente de article */
+article .importante {
+    color: red;
 } 
