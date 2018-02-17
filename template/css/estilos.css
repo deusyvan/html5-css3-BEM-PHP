@@ -1,21 +1,14 @@
-/*Seletores de tipo (elementos, tags, classe e id) h1, p, strong*/
-
-/*Ver sempre se é o caso de especificar o editor para o estilo ex: h1#titulo ou p.vermelho 
-quando for o caso procurando evitar conflitos=espeficidade*/
-
-h1 {
-	font-family: Verdana;
-}
+/*Agrupar seletores*/
 
 #titulo {
-	color: blue;
+	font-family: Arial;
 }
 
-/*Colocar nome das classes semânticas*/
-.destaque {
+.introducao {
 	color: red;
 }
 
-p.missao {
+.missao {
+    color: red;
 	font-family: Arial;
 }
