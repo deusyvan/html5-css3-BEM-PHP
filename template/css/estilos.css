@@ -1,7 +1,10 @@
 /*Cores */
 
 /*
-   
+   Mostrando as cores nos containers <div>
  */
 
-
+.caixa1 {
+	background-color: blue;
+	color: white;
+}
