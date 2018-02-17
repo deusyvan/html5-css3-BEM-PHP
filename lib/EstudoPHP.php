@@ -1,18 +1,18 @@
 <?php
 
-//Tipo callback
+//Constantes
 
-//call_user_func($callback)
+//MAXIMO_CLIENTES Para definir usa a função define()
 
-//Tipo NULL
+define("MAXIMO_CLIENTES", 100);
 
-//ÚNICO valor possível: NULL
+echo MAXIMO_CLIENTES;
 
 echo "\n***************\n";
 //Resultados:
 /*
  
-
+100
   
  */
 
