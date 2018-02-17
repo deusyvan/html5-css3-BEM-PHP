@@ -4,6 +4,15 @@
 }
 */
 
+/* 
 article strong {
 	color: blue;
-}
+} 
+*/
+
+/* aticle tem um descendente missao que por sua vez um descendente strong
+   tem que estar na mesma hierarquia 
+*/
+article .missao strong {
+    color: green;
+} 
