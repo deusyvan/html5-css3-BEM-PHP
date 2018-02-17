@@ -1,10 +1,11 @@
 /*Seletores de filhos direto */
 
 /*
-    article tem que ter um filho direto missao que tem que ter um filho
-    direto strong
+    Misturar tipos de seletores
+    Descendentes de article e filhos direto de importante
+    Deixando mais específico.
  */
 
-article > .importante > strong {
+article .importante > strong {
     color: red;
 } 
