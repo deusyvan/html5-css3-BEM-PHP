@@ -1,19 +1,8 @@
 <?php
 
-//Tipo objeto
+//Tipo recurso
 
-class Computador{
-    var $cpu;
-    
-    function ligar(){
-        echo "Ligando computador a {$this->cpu}... ";
-    }
-}
-
-$obj = new Computador;
-$obj->cpu = "500Mhz";
-$obj->ligar();
-
+//resource mysql_connect(...)
 
 echo "\n***************\n";
 //Resultado:
