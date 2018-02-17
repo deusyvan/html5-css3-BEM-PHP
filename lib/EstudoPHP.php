@@ -1,14 +1,23 @@
 <?php
 
-//Tipo recurso
+//Tipo misto
 
-//resource mysql_connect(...)
+//string gettype(mixed var)
+
+
 
 echo "\n***************\n";
-//Resultado:
+//Resultados possíveis:
 /*
  
-Ligando computador a 500Mhz...
+boolean
+integer
+double
+string
+array
+object
+resource
+NULL
   
  */
 
