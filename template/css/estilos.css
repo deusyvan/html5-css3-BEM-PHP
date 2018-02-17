@@ -1,5 +1,9 @@
 /*Seletores descendentes */
-/*Elementos descendentes ou filhos da classe missao */
-.missao strong {
+/* .missao strong {
 	color: red;
+}
+*/
+
+article strong {
+	color: blue;
 }
