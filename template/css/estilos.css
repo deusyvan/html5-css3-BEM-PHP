@@ -1,9 +1,3 @@
-/*Compartilhando as propriedades */
+/*Seletores descendentes */
 
-#titulo, .missao {
-	font-family: Arial;
-}
 
-.introducao, .missao{
-	color: red;
-}
