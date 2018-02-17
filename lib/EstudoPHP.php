@@ -1,16 +1,15 @@
 <?php
 
-//Tipo String
-$variavel = 'Isto é um teste';
+//Tipo array
+$carros = array('Palio', 'Corsa', 'Gol');
 
-$variavel = "Isto é um teste";
-
+echo $carros[1];
 
 echo "\n***************\n";
 //Resultado:
 /*
  
- 
+ Corsa
   
  */
 
