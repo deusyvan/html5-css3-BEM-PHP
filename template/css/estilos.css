@@ -1,6 +1,11 @@
 /*Seletores de filhos direto */
 
-/*É descendente de article */
-article .importante {
+/*É descendente de article
+   >  quero selecionar os filhos diretos de article
+   e não os descendentes.
+   os netos estão fora.
+ */
+
+article > .importante {
     color: red;
 } 
