@@ -1,18 +1,12 @@
 <?php
 
-//Passagem de parâmetros
-//Recursão
+//Manipulação de Arquivos e Diretorios
+//fopen
 
-function fatorial($numero){
-
-    if ($numero == 1)
-        return $numero;
-    else 
-        return $numero * fatorial($numero -1);
-}
-
-echo fatorial(5) . "\n";
-echo fatorial(7) . "\n"
+$fp = fopen("/home/deusyvan/Documentos/excel.txt", "r");
+$fp = fopen("/home/deusyvan/Imagens/file.gif", "wb");
+$fp = fopen("http://www.example.com/", "r");
+$fp = fopen("ftp://user:password@example.com/", "w");
 //Resultados:
 /*
     
