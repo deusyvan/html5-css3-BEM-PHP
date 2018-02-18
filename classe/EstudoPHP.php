@@ -1,31 +1,21 @@
 <?php
 
 //Operadores Relacionais
+// uso do == e !=
 
-//Utilização errada do operador de atribuição "="
-if ($a = 5){
-    echo 'essa operação atribui 5 à variável $a e retorna verdadeiro';
+$a = 1234;
+$b = '1234';
+
+if ($a == $b){
+    echo '$a e $b são iguais';
+} else if ($a != $b){
+    echo '$a e $b são diferentes';
 }
 echo "\n***************\n";
 
 //Resultados:
 /*
  
- essa operação atribui 5 à variável $a e retorna verdadeiro
-  
- */
-
-/* 
-  
- ==
- ===
- != OU <>
- <
- >
- <=
- >=
- 
+$a e $b são iguais
  
  */
-
-
