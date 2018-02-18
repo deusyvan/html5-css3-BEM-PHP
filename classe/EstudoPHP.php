@@ -1,33 +1,14 @@
 <?php
 
 //Manipulação de Arquivos e Diretorios
-//fwrite: grava no arquivo
-//fclose: fecha o arquivo aberto apontado pelo identificador de arquivo retorna true se sucesso.
+//file_put_contents: grava uma string no arquivo retorna a quantidade de bytes gravados
 
-//abre o arquivo
-$fd = fopen("/home/deusyvan/Documentos/file.txt", "w");
-
-//escreve no arquivo
-fwrite($fd, "linha 1\n");
-fwrite($fd, "linha 2\n");
-fwrite($fd, "linha 3\n");
-
-//fecha o arquivo
-fclose($fd);
-
+echo file_put_contents('/tmp/teste.txt', "este \n é o conteúdo \n do arquivo");
 
 //Resultados:
 /*
     
-Existindo o arquivo vai apagar ele inteiro e inserir:
-linha 1
-linha 2
-linha 3
-
-Não existindo ele cria e escreve: 
-linha 1
-linha 2
-linha 3
+34
 
  */
 
