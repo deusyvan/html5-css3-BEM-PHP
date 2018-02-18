@@ -1,29 +1,20 @@
 <?php
 
 //Estruturas de controle
-// Atribuir valor de acordo com a condicao
+// WHILE
 
-$valorVenda = 120;
+$a = 1;
 
-if ($valorVenda > 100){
-    $resultado = 'Muito caro!';
-} else {
-    $resultado = 'pode comprar!';
+while ($a < 5){
+    print $a;
+    $a++;
 }
-
-echo $resultado;
-$valorVenda = 90;
-
-$resultado = ($valorVenda > 100) ? 'muito caro' : 'pode comprar';
-
-echo $resultado;
 
 echo "\n***************\n";
 
 //Resultados:
 /*
     
-    Muito caro!
-    pode comprar
+1234
     
  */
