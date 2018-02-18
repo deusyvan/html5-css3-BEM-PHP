@@ -1,25 +1,23 @@
 <?php
 
-//Variáveis globais
+//Variáveis estáticas
+//Apenas dentro de um escopo de uma função
 
-$total = 0;
-
-function km2mi($quilometros){
-    global $total;
+function percorre($quilometros){
+    static $total;
     $total += $quilometros;
-    return $quilometros * 0.6;
+    echo "percorreu mais $quilometros do total de $total\n";
 }
 
-echo 'percorreu ' . km2mi(100) . " milhas \n";
-echo 'percorreu ' . km2mi(200) . " milhas \n";
-echo 'percorreu no total ' . $total . " quilometros \n";
-
+percorre(100);
+percorre(200);
+percorre(50);
 
 //Resultados:
 /*
     
-percorreu 60 milhas 
-percorreu 120 milhas 
-percorreu no total 300 quilometros 
+percorreu mais 100 do total de 100
+percorreu mais 200 do total de 300
+percorreu mais 50 do total de 350
 
  */
