@@ -1,23 +1,25 @@
 <?php
 
-//Variáveis estáticas
-//Apenas dentro de um escopo de uma função
+//Passagem de parâmetros
+//Dentro do escopo da função podem ser:
+//by value
+//by reference
+// Por padrão é by value torna-se uma variável local,
+// não alterando seu valor externo
 
-function percorre($quilometros){
-    static $total;
-    $total += $quilometros;
-    echo "percorreu mais $quilometros do total de $total\n";
+function incrementa($variavel, $valor){
+    $variavel += $valor;
 }
 
-percorre(100);
-percorre(200);
-percorre(50);
+$a  = 10;
+incrementa($a, 20);
+echo $a;
 
 //Resultados:
 /*
     
-percorreu mais 100 do total de 100
-percorreu mais 200 do total de 300
-percorreu mais 50 do total de 350
+10
 
  */
+
+?>
