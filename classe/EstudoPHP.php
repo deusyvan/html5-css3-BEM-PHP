@@ -1,16 +1,16 @@
 <?php
 
-//Estruturas de controle
-// Requisicao BREAK
+//Requisições de Arquivos
+//include
 
-/*
- * Aborta a execução de blocos de comandos, como 
- * o IF WHILE FOR
- * */
+include '../lib/Biblioteca.php';
+
+echo quadrado(4);
 
 
 //Resultados:
 /*
     
+16
 
  */
