@@ -1,56 +1,9 @@
-/*Entendendo a propriedade display */
+/*Adicionando bordas */
 
 body {
 	font-size: 32px;
 }
 
-.nome-empresa {
-	background-color: pink;
-}
-
-.segmento-empresa {
-	background-color: red;
-}
-
-.curso-html {
-	background-color: #00dd00;
-}
-
-.curso-css {
-	background-color: #fdff11;
-}
-
-.curso-php {
-	background-color: #00dddd;
-}
-
-.curso-bootstrap {
-	background-color: #cc00da;
-}
-
-/* display: block; fica sempre um embaixo do outro
-*/
-.nome-empresa, .segmento-empresa {
-	display: block;
-	height: 100px;
-	width: 300px;
-}
-
-/* display: inline; fica sempre um do lado do outro
-    não faz nada com a definição de largura e altura
-    retirando o display é obedecida.
-*/
-.curso-html, .curso-css {
-	display: inline;
-	height: 100px; /*Não tem efeito*/
-    width: 300px; /*Não tem efeito*/
-}
-
-.curso-php, .curso-bootstrap {
-	display: inline-block;
-	height: 100px;
-    width: 300px;
-}
 
 
 
