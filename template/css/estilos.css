@@ -38,8 +38,16 @@ body {
 
 /* display: inline; fica sempre um do lado do outro
     não faz nada com a definição de largura e altura
+    retirando o display é obedecida.
 */
 .curso-html, .curso-css {
+	display: inline;
+	height: 100px;
+    width: 300px;
+}
+
+.curso-php, .curso-bootstrap {
+	display: inline-block;
 	height: 100px;
     width: 300px;
 }
