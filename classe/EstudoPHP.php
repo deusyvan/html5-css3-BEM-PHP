@@ -1,13 +1,9 @@
 <?php
 
 //Estruturas de controle
-// WHILE
-
-$a = 1;
-
-while ($a < 5){
-    print $a;
-    $a++;
+// FOR
+for ($i = 1; $i <= 10; $i++){
+    print $i;
 }
 
 echo "\n***************\n";
@@ -15,6 +11,6 @@ echo "\n***************\n";
 //Resultados:
 /*
     
-1234
+12345678910
     
  */
