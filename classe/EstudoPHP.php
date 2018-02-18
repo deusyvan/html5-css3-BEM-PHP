@@ -1,18 +1,18 @@
 <?php
 
 //Estruturas de controle
-// FOREACH para arrays ou matrizes
+// Requisicao CONTINUE
 
-$fruta = array("maca", "laranja", "pera" , "banana");
+/*
+ * Quando executada em um bloco de comandos FOR/WHILE, ignora
+ * as instrucoes restantes ateh o fechamento em "}".
+ * O programa segue para a proxima verificacao da condicao de entrada
+ * do laço de repetição.
+ * */
 
-foreach ($fruta as $valor){
-    print "$valor - ";
-}
-echo "\n***************\n";
 
 //Resultados:
 /*
     
-maca - laranja - pera - banana -
 
  */
