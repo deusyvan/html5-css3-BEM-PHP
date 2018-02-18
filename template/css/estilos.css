@@ -42,8 +42,8 @@ body {
 */
 .curso-html, .curso-css {
 	display: inline;
-	height: 100px;
-    width: 300px;
+	height: 100px; /*Não tem efeito*/
+    width: 300px; /*Não tem efeito*/
 }
 
 .curso-php, .curso-bootstrap {
