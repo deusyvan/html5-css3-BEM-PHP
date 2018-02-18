@@ -2,6 +2,17 @@
 /*Sempre terminar a fonte com um tipo generico*/
 .nome {
 	color: #f00;
-	font-size: 24px;
-	font-family: "Trebuchet MS", Arial, sans-serif, serif;
+	font-size: 24px; /*tamanho*/
+	font-family: "Trebuchet MS", Arial, sans-serif, serif;/*familia*/
+	font-style: italic;/*estilo*/
+	font-weight: bold;/*peso*/
+	
+	/*Outra forma de definição*/
+	font: italic bold 24px "Trebuchet MS", Arial, sans-serif, serif;
+	
+	text-decoration: line-through;
+}
+
+.segmento {
+	font-family: Palatino, serif;
 }
