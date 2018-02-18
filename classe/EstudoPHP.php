@@ -2,18 +2,21 @@
 
 //Estruturas de controle
 // If
-$a = 1;
+$a = 'conteudo';
 
-if ($a == 5){
-    echo 'Eh igual!';
-} else {
-    echo "Nao eh igual";
+if ($a){
+    echo '$a tem conteudo!';
+} 
+
+if ($b) {
+    echo '$b tem conteudo!';
 }
 
 echo "\n***************\n";
 
 //Resultados:
 /*
- Nao eh igual
+
+$a tem conteudo!
 
  */
