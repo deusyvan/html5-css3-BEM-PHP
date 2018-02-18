@@ -1,22 +1,29 @@
-/*Formatação de textos */
-/*Sempre terminar a fonte com um tipo generico*/
-.nome {
-	color: #f00;
-	font-size: 24px; /*tamanho*/
-	font-family: "Trebuchet MS", Arial, sans-serif, serif;/*familia*/
-	font-style: italic;/*estilo*/
-	font-weight: bold;/*peso*/
-	
-	/*Outra forma de definição*/
-	font: italic bold 24px "Trebuchet MS", Arial, sans-serif, serif;
-	
-	text-decoration: underline;
-	
-	text-align: center; /* left right center justify*/
-	
-	
+/*Entendendo a propriedade display */
+
+body {
+	font-size: 32px;
 }
 
-.segmento {
-	font-family: Palatino, serif;
+.nome-empresa {
+	background-color: pink;
+}
+
+.segmento-empresa {
+	background-color: red;
+}
+
+.curso-html {
+	background-color: #00dd00;
+}
+
+.curso-css {
+	background-color: #fdff11;
+}
+
+.curso-php {
+	background-color: #00dddd;
+}
+
+.curso-bootstrap {
+	background-color: #cc00da;
 }
