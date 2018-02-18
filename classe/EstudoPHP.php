@@ -9,18 +9,20 @@
 // Utiliza o operador & na frente do parâmetro
 // as alterações passam a valer fora do contexto da função.
 
-function incrementa(&$variavel, $valor){
+//Valor default é permitido
+
+function incrementa(&$variavel, $valor = 40){
     $variavel += $valor;
 }
 
 $a  = 10;
-incrementa($a, 20);
+incrementa($a);
 echo $a;
 
 //Resultados:
 /*
     
-30
+50
 
  */
 
