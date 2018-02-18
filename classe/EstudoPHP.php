@@ -1,25 +1,23 @@
 <?php
 
 //Passagem de parâmetros
-//Forma Dinâmica número de argumentos variáveis
-//quais são: func_get_args();
-//quantidade: func_num_args();
+//Recursão
 
-function Ola(){
-    $argumentos = func_get_args();
-    $quantidade = func_num_args();
-    
-    for ($n=0; $n<$quantidade; $n++){
-        echo 'Olá ' . $argumentos[$n] . "\n";
-    }
+function fatorial($numero){
+
+    if ($numero == 1)
+        return $numero;
+    else 
+        return $numero * fatorial($numero -1);
 }
 
-Ola('João', 'Maria', 'José' ,'Pedro');
-
+echo fatorial(5) . "\n";
+echo fatorial(7) . "\n"
 //Resultados:
 /*
     
-50
+120
+5040
 
  */
 
