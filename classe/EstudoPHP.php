@@ -1,13 +1,11 @@
 <?php
 
 //Estruturas de controle
-// Requisicao CONTINUE
+// Requisicao BREAK
 
 /*
- * Quando executada em um bloco de comandos FOR/WHILE, ignora
- * as instrucoes restantes ateh o fechamento em "}".
- * O programa segue para a proxima verificacao da condicao de entrada
- * do laço de repetição.
+ * Aborta a execução de blocos de comandos, como 
+ * o IF WHILE FOR
  * */
 
 
