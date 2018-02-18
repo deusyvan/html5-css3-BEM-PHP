@@ -28,8 +28,8 @@ body {
 	background-color: #cc00da;
 }
 
+/* display: block; fica sempre um embaixo do outro
+*/
 .nome-empresa, .segmento-empresa {
 	display: block;
-	height: 100px;
-	width: 300px;
 }
