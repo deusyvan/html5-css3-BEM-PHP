@@ -17,13 +17,14 @@ a {
 
 
 p {
+	background-color: #ccc;
 	height: 300px;
 	width: 300px;
 	
 	border: 5px solid black;
 	border-radius: 20px;
+    border-top-right-radius: 50px;	
 	
-	background-color: #ccc;
 }
 
 
