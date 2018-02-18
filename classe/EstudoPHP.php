@@ -1,23 +1,31 @@
 <?php
 
 //Operadores Relacionais
-// uso do === e !== comparando os tipos de dados
+// uso do valor zero
 
-$a = 1234;
-$b = '1234';
+$a = 0;
 
-if ($a === $b){
-    echo '$a e $b são iguais e do mesmo tipo';
+if ($a == FALSE){
+    echo '$a é falso';
 } 
 
-if ($a !== $b){
-    echo '$a e $b são de tipos diferentes';
+//testa se é do tipo false
+
+if ($a === FALSE){
+    echo '$a é do tipo FALSE';
+}
+
+//Testa se $a é igual a zero e do mesmo tipo que zero
+
+if ($a === 0){
+    echo '$a é zero mesmo';
 }
 echo "\n***************\n";
 
 //Resultados:
 /*
  
-$a e $b são de tipos diferentes
+$a é falso
+$a é zero mesmo
 
  */
