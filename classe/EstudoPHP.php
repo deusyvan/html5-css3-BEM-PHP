@@ -1,17 +1,25 @@
 <?php
 
-//Manipulação de Funções
+//Variáveis globais
 
-function calculaObesidade($peso, $altura){
-    return $peso / ($altura * $altura);
+$total = 0;
+
+function km2mi($quilometros){
+    global $total;
+    $total += $quilometros;
+    return $quilometros * 0.6;
 }
 
-echo calculaObesidade(98, 1.86);
+echo 'percorreu ' . km2mi(100) . " milhas \n";
+echo 'percorreu ' . km2mi(200) . " milhas \n";
+echo 'percorreu no total ' . $total . " quilometros \n";
 
 
 //Resultados:
 /*
     
-28.326974216672
+percorreu 60 milhas 
+percorreu 120 milhas 
+percorreu no total 300 quilometros 
 
  */
