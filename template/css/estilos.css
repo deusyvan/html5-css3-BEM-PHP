@@ -27,3 +27,8 @@ body {
 .curso-bootstrap {
 	background-color: #cc00da;
 }
+
+.nome-empresa, .segmento-empresa {
+	height: 100px;
+	width: 300px;
+}
