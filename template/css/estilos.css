@@ -40,7 +40,6 @@ body {
     não faz nada com a definição de largura e altura
 */
 .curso-html, .curso-css {
-	display: inline;
 	height: 100px;
     width: 300px;
 }
