@@ -12,7 +12,7 @@ a {
     
     border: thick blue dashed;
     border-bottom: 5px dotted #0f0; 
-    
+    border-right: 5px dotted #000;
 }
 
 
