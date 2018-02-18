@@ -1,22 +1,19 @@
 <?php
 
-//Operadores Lógicos
-// and    or    xor    !    &&    ||
-//xor= exclusivo
-// or e and tem precedencia maior que && ou ||
+//Estruturas de controle
+// If
+$a = 1;
 
-$vai_chover = FALSE;
-$esta_frio = TRUE;
-
-if ($vai_chover xor $esta_frio){
-    echo 'Vou pensar duas vezes antes de sair';
-} 
+if ($a == 5){
+    echo 'Eh igual!';
+} else {
+    echo "Nao eh igual";
+}
 
 echo "\n***************\n";
 
 //Resultados:
 /*
- 
-Vou pensar duas vezes antes de sair
+ Nao eh igual
 
  */
