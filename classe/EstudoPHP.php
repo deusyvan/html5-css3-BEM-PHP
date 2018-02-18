@@ -1,31 +1,22 @@
 <?php
 
-//Operadores Relacionais
-// uso do valor zero
+//Operadores Lógicos
+// and    or    xor    !    &&    ||
+//xor= exclusivo
+// or e and tem precedencia maior que && ou ||
 
-$a = 0;
+$vai_chover = TRUE;
+$esta_frio = TRUE;
 
-if ($a == FALSE){
-    echo '$a é falso';
+if ($vai_chover and $esta_frio){
+    echo 'Nao vou sair de casa';
 } 
 
-//testa se é do tipo false
-
-if ($a === FALSE){
-    echo '$a é do tipo FALSE';
-}
-
-//Testa se $a é igual a zero e do mesmo tipo que zero
-
-if ($a === 0){
-    echo '$a é zero mesmo';
-}
 echo "\n***************\n";
 
 //Resultados:
 /*
  
-$a é falso
-$a é zero mesmo
+Nao vou sair de casa
 
  */
