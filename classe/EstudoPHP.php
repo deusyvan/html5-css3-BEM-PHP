@@ -1,29 +1,29 @@
 <?php
 
 //Estruturas de controle
-// Testes encadeados if If ou AND
-$salario = 1020;
-$tempoServico = 12;
-$temReclamacoes = FALSE;
+// Atribuir valor de acordo com a condicao
 
-if ($salario > 1000){
-    if ($tempoServico >= 12){
-        if ($temReclamacoes != TRUE){
-            echo 'parabens, voce foi promovido!';
-        }
-    }
-} 
+$valorVenda = 120;
 
-if (($salario > 1000) and ($tempoServico >= 12) and ($temReclamacoes != TRUE)) {
-    echo 'parabens, voce foi promovido!';
+if ($valorVenda > 100){
+    $resultado = 'Muito caro!';
+} else {
+    $resultado = 'pode comprar!';
 }
+
+echo $resultado;
+$valorVenda = 90;
+
+$resultado = ($valorVenda > 100) ? 'muito caro' : 'pode comprar';
+
+echo $resultado;
 
 echo "\n***************\n";
 
 //Resultados:
 /*
     
-    parabens, voce foi promovido!
-    parabens, voce foi promovido!
+    Muito caro!
+    pode comprar
     
  */
