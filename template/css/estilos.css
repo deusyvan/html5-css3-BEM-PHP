@@ -10,7 +10,11 @@
 	/*Outra forma de definição*/
 	font: italic bold 24px "Trebuchet MS", Arial, sans-serif, serif;
 	
-	text-decoration: none;
+	text-decoration: underline;
+	
+	text-align: center; /* left right center justify*/
+	
+	
 }
 
 .segmento {
