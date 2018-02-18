@@ -1,14 +1,16 @@
 <?php
 
 //Manipulação de Arquivos e Diretorios
-//file_put_contents: grava uma string no arquivo retorna a quantidade de bytes gravados
+//file_get_contents: lê o conteúdo e retorna em forma de string
 
-echo file_put_contents('/tmp/teste.txt', "este \n é o conteúdo \n do arquivo");
+echo file_get_contents('/tmp/teste.txt');
 
 //Resultados:
 /*
     
-34
+este 
+ é o conteúdo 
+ do arquivo
 
  */
 
