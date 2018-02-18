@@ -1,7 +1,7 @@
 /*Formatação de textos */
-
+/*Sempre terminar a fonte com um tipo generico*/
 .nome {
 	color: #f00;
 	font-size: 24px;
-	font-family: Arial;
+	font-family: "Trebuchet MS", Arial, sans-serif, serif;
 }
