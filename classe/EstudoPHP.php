@@ -1,16 +1,22 @@
 <?php
 
 //Manipulação de Arquivos e Diretorios
-//file_get_contents: lê o conteúdo e retorna em forma de string
+//file: lê um arquivo e retorna um array com tudo, cada posição uma linha
 
-echo file_get_contents('/tmp/teste.txt');
+//lê o arquivo para o array $arquivo
+$arquivo = file("/home/deusyvan/Documentos/readme.txt");
+
+//exibe o conteúdo
+echo $arquivo[0];
+echo $arquivo[1];
+echo $arquivo[2];
 
 //Resultados:
 /*
     
-este 
- é o conteúdo 
- do arquivo
+Adobe Systems Incorporated
+Flash Player for Linux
+Version 26.0.0.137
 
  */
 
