@@ -1,19 +1,12 @@
 <?php
 
-//Requisições de Arquivos
-//require diferente de include somente na manipulação de erros.
-// include no caso de erro lança um warnig
-// require no caso de erro lança um erro fatal
+//Manipulação de Funções
 
-/* include_once = igual o include, a não ser que já tenha sido incluído evitando sobreposição
- * 
- * require_once = igual o require, a não ser que já tenha sido incluído evitando sobreposição
- * 
- * */
+function calculaObesidade($peso, $altura){
+    return $peso / ($altura * $altura);
+}
 
-include '../lib/Biblioteca.php';
-
-echo quadrado(4);
+echo calculaObesidade(98, 1.86);
 
 
 //Resultados:
