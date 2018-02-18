@@ -1,23 +1,20 @@
 <?php
 
 //Passagem de parâmetros
-//Dentro do escopo da função podem ser:
-//by value:
-// Por padrão é by value torna-se uma variável local,
-// não alterando seu valor externo
-//by reference:
-// Utiliza o operador & na frente do parâmetro
-// as alterações passam a valer fora do contexto da função.
+//Forma Dinâmica número de argumentos variáveis
+//quais são: func_get_args();
+//quantidade: func_num_args();
 
-//Valor default é permitido
-
-function incrementa(&$variavel, $valor = 40){
-    $variavel += $valor;
+function Ola(){
+    $argumentos = func_get_args();
+    $quantidade = func_num_args();
+    
+    for ($n=0; $n<$quantidade; $n++){
+        echo 'Olá ' . $argumentos[$n] . "\n";
+    }
 }
 
-$a  = 10;
-incrementa($a);
-echo $a;
+Ola('João', 'Maria', 'José' ,'Pedro');
 
 //Resultados:
 /*
