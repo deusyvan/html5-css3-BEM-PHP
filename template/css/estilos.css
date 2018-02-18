@@ -1,10 +1,15 @@
 /*Adicionando bordas */
+/* Borda fina */
 
 body {
 	font-size: 32px;
 }
 
-
+a {
+    border-width: thin;
+    border-color: red;
+    border-style: solid;
+}
 
 
 
