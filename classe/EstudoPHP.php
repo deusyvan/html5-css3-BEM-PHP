@@ -1,22 +1,29 @@
 <?php
 
 //Estruturas de controle
-// If
-$a = 'conteudo';
+// Testes encadeados if If ou AND
+$salario = 1020;
+$tempoServico = 12;
+$temReclamacoes = FALSE;
 
-if ($a){
-    echo '$a tem conteudo!';
+if ($salario > 1000){
+    if ($tempoServico >= 12){
+        if ($temReclamacoes != TRUE){
+            echo 'parabens, voce foi promovido!';
+        }
+    }
 } 
 
-if ($b) {
-    echo '$b tem conteudo!';
+if (($salario > 1000) and ($tempoServico >= 12) and ($temReclamacoes != TRUE)) {
+    echo 'parabens, voce foi promovido!';
 }
 
 echo "\n***************\n";
 
 //Resultados:
 /*
-
-$a tem conteudo!
-
+    
+    parabens, voce foi promovido!
+    parabens, voce foi promovido!
+    
  */
