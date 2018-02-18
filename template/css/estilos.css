@@ -1,22 +1,16 @@
-/*Adicionando bordas */
-/* Borda fina */
+/*Margens de elementos */
 
 body {
 	font-size: 32px;
 }
 
-p {
+.frase1, .frase2 {
     text-align: justify;
-	/*Largura da caixa é 500px*/
 	width: 500px;
+	padding: 20px;
+	
 	border: 3px solid red;
 	background-color: yellow;
-	
-	/*quando definimos o padding a largura aumenta
-	mas continua ainda com os 500px, o padding é somado
-	na largura*/
-	padding: 20px 50px;
-	padding-left: 200px;
 	
 }
 
