@@ -29,6 +29,7 @@ body {
 }
 
 .nome-empresa, .segmento-empresa {
+	display: block;
 	height: 100px;
 	width: 300px;
 }
