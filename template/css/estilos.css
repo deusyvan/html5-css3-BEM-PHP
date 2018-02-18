@@ -17,9 +17,12 @@ body {
 p {
 	margin: 0;
 }
-
+/*Lembrando a diferença de margin e padding:
+  padding espaçamento interno
+  margin espaçamento externo
+  */
 .frase1 {
-	margin-left: 0px;
+	margin: 10px 0 100px 50px;
 }
 
 
