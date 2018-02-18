@@ -1,7 +1,7 @@
 <?php
 
 //Operadores Relacionais
-// uso do == e != comparando os tipos de dados
+// uso do === e !== comparando os tipos de dados
 
 $a = 1234;
 $b = '1234';
