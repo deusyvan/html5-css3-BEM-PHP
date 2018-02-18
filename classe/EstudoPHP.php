@@ -12,6 +12,6 @@ echo calculaObesidade(98, 1.86);
 //Resultados:
 /*
     
-16
+28.326974216672
 
  */
