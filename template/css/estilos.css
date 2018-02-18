@@ -1,2 +1,7 @@
 /*Formatação de textos */
 
+.nome {
+	color: #f00;
+	font-size: 24px;
+	font-family: Arial;
+}
