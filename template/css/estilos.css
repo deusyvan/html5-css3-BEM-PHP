@@ -28,3 +28,12 @@ p {
 	padding: 20px;
 }
 
+/*Na definição do box-sizing como border-box
+    a borda e o padding assumem o valor de width de 500px
+    ou seja é distribuído pra dentro da caixa*/
+.frase2 {
+	box-sizing: border-box;
+	border: 20px solid red;
+	padding: 20px;
+}
+
