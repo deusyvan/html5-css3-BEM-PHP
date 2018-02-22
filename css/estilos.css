@@ -41,13 +41,13 @@ article {
 	
 }
 
-@media (min-width: 600px) { /*Atingiu o brakpoint aplica a regra*/
+@media (min-width: 600px) { /*Como estamos trabalhando com mobil force não usamos o max-width e sim o min-width*/
     article{
         background-color: yellow;
     }
 }
 
-@media (min-width: 800px) { /* A partir de 800px vai aplicar essas regras: lado a lado senão é empilhado*/
+@media (min-width: 800px) { 
 	article{
 		width: 30%; 
 	    float: left;
