@@ -32,3 +32,15 @@ footer {
 .clearfix {
 	clear: both;
 }
+
+article > p::first-letter {
+	font-size: 60px;
+	color: red;
+}
+
+
+
+
+
+
+
