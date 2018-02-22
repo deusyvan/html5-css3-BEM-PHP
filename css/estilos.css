@@ -40,7 +40,7 @@ article {
 	border: 1px solid #95a4a5;
 	width: 30%; /*30% do container - Largura em relação ao viewport*/
 	float: left;
-	margin-right: 30px;
+	margin-right: 5%; /* Para fechar 100% da largura= 30 +5+ 30 +5+ 30 */
 }
 
 article > h2 {
