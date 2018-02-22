@@ -19,7 +19,7 @@ header img {
 }
 
 .container {
-	width: 1200px;
+	width: 100%; /*Já começa a ficar responsivo começamos a usar como layout fluido*/
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
