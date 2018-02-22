@@ -3,7 +3,15 @@ html {
 	/*   10/16*100 = 62.5%*/
 }
 
+.caixa {
+	font-size: 200%; /* a Caixa passou a ter 20px*/
+}
+
+h1 {
+	font-size: 500%; /* Não ficou 50px o pai é caixa então ficou com 100px */
+}
+
 p {
-	font-size: 300%;
-	/*   = 30px*/
+	font-size: 300%; /*  não ficou com 30px e sim com 60px pois é 300% de caixa = 60px */
+	
 }
