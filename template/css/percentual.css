@@ -1,8 +1,6 @@
-.container {
-	font-size: 200%;
-}
+
 
 p {
-	font-size: 200%;
-	/*200 % em relação ao pai que é o div o padrão 16px = 32px*/
+	font-size: 187.5%;
+	/*   30/16*100 = 187.5% = 30px*/
 }
