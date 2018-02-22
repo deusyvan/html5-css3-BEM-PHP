@@ -7,14 +7,21 @@ html {
 	/*   10/16*100 = 62.5%*/
 }
 
+.container {
+	width: 1000px;
+	background-color: yellow;
+}
+
 .caixa {
 	width: 50%; /*Em relação ao container ou seja ao tamano da tela*/
-	padding: 10%; 
+	padding: 10%; /*Sempre em relação ao pai*/
+	margin-top: 10%; /* Valores em percentual em elementos de largura: padding, width, margin, não é relacinado a fonte
+	                       e sim a largura de onde ele está inserido*/
 	
 	font-size: 200%; /* a Caixa passou a ter 20px*/
 	
 	background-color: #ccc;
-	border: 5px solid black;
+	border: 5px solid black; /* Lembrando que border não aceita percentual*/
 }
 
 h1 {
