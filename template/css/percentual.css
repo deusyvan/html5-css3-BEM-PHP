@@ -1,10 +1,17 @@
+
 html {
 	font-size: 62.5%;
 	/*   10/16*100 = 62.5%*/
 }
 
 .caixa {
+	width: 50%; /*Em relação ao container ou seja ao tamano da tela*/
+	padding: 10%; 
+	
 	font-size: 200%; /* a Caixa passou a ter 20px*/
+	
+	background-color: #ccc;
+	border: 5px solid black;
 }
 
 h1 {
