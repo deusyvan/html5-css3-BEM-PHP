@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box; /*Seletor universal box model*/
+}
 
 html {
 	font-size: 62.5%;
