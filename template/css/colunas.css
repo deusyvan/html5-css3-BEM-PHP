@@ -38,9 +38,13 @@ article > p::first-letter {
 	color: red;
 }
 
+h1::before {
+	content: "Título: "
+}
 
-
-
+h1::after {
+	content: " - Artigo";
+}
 
 
 
