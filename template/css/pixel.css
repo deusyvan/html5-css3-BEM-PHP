@@ -1,7 +1,10 @@
-html {
-	font-size: 100%;
-}
-
-body {
-	font-size: 10px;
+/*Pixel são valores que não se usa em telas responsivas pois define os tamanhos que serão fixos
+Afetam a usabilidade e ver a nescessidade do uso*/
+.caixa {
+	width: 600px;
+	padding: 20px;
+	font-size: 12px;
+	
+	background-color: #ccc;
+	border: 5px solid black;
 }
