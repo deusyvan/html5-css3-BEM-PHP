@@ -38,7 +38,7 @@ header img {
 article {
 	padding: 10px;
 	border: 1px solid #95a4a5;
-	width: 370px;
+	width: 30%; /*30% do container - Largura em relação ao viewport*/
 	float: left;
 	margin-right: 30px;
 }
