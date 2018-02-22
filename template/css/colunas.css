@@ -19,4 +19,16 @@ footer {
   background-color: #ccc;
 }
 
+.coluna1 {
+	float: left;
+	width: 48%;
+}
 
+.coluna2 {
+	float: right;
+	width: 48%;
+}
+
+.clearfix {
+	clear: both;
+}
