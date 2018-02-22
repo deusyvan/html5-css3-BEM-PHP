@@ -82,9 +82,11 @@ article > footer {
     text-decoration: none;	
 }
 
-.botao:hover {
+.botao:hover, .botao:focus {
 	background-color: red;
 }
+
+
 
 
 
