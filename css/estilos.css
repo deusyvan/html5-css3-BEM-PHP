@@ -41,6 +41,12 @@ article {
 	
 }
 
+@media (min-width: 600px) { /*Atingiu o brakpoint aplica a regra*/
+    article{
+        background-color: yellow;
+    }
+}
+
 @media (min-width: 800px) { /* A partir de 800px vai aplicar essas regras: lado a lado senão é empilhado*/
 	article{
 		width: 30%; 
